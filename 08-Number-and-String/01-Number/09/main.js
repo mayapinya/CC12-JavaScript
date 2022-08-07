@@ -1,0 +1,7 @@
+function calDiagonal(w, h) {
+  return Math.sqrt(w ** 2 + h ** 2).toFixed(4);
+}
+
+console.log(calDiagonal(3, 4));
+console.log(calDiagonal(5, 12));
+console.log(calDiagonal(1, 1));
